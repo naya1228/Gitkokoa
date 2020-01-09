@@ -3,3 +3,12 @@
   justify-content: space-between;
   align-items: center;
 }
+
+.friend .friend__avatar {
+  width: 50px;
+  border-radius: 30%;
+}
+
+.friend__avatar .g-avtar {
+  width: 70px;
+}

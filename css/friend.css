@@ -9,6 +9,23 @@
   border-radius: 38%;
 }
 
-.friend__avatar.g-avtar {
+.friend__avatar.g-avatar {
   width: 70px;
+}
+
+.friend__avatar.m-avatar {
+  width: 60px;
+}
+
+.friend .friend__column {
+  display: flex;
+  align-items: center;
+}
+
+.friend .friend__avatar {
+  margin-right: 15px;
+}
+
+.friend__content .friend__name {
+  display: block;
 }

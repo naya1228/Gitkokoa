@@ -7,18 +7,19 @@
 }
 
 .chats-body {
-  padding: 10px 0;
+  padding: 10px 0px;
   padding-top: 100px;
+  min-height: 100000px;
 }
 
-.chat__write-column .header,
+.chats-body .header,
 .chats-body .status-bar {
   padding: 0px 20px;
 }
 
 .chats-body {
   background-image: url("../images/chatBg.png");
-  min-height: 100vh;
+  min-height: 1000vh;
 }
 
 .chat-screen .chat__messages {
@@ -114,7 +115,7 @@
 }
 
 .incoming-message .message__author {
-  margin-bottom: 10px;
+  margin-top: 10px;
   display: block;
   font-weight: 600;
   font-size: 12px;

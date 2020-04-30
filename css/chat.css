@@ -1,5 +1,14 @@
+.header-wrapper {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  padding: 5px 0px;
+  background-color: white;
+}
+
 .chats-body {
-  padding: 0;
+  padding: 10px 0;
+  padding-top: 100px;
 }
 
 .chat__write-column .header,
@@ -7,7 +16,7 @@
   padding: 0px 20px;
 }
 
-.chat-screen {
+.chats-body {
   background-image: url("../images/chatBg.png");
   min-height: 100vh;
 }
